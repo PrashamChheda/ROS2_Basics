@@ -1,0 +1,22 @@
+[0.288s] Invoking command in '/home/prasham/Prasham/GitHub/ros2_basics_ws/build/my_robot_interfaces': /usr/bin/cmake /home/prasham/Prasham/GitHub/ros2_basics_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/prasham/Prasham/GitHub/ros2_basics_ws/install/my_robot_interfaces
+[0.448s] -- The C compiler identification is GNU 11.4.0
+[0.599s] -- The CXX compiler identification is GNU 11.4.0
+[0.610s] -- Detecting C compiler ABI info
+[0.724s] -- Detecting C compiler ABI info - done
+[0.732s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.733s] -- Detecting C compile features
+[0.733s] -- Detecting C compile features - done
+[0.736s] -- Detecting CXX compiler ABI info
+[0.845s] -- Detecting CXX compiler ABI info - done
+[0.862s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.863s] -- Detecting CXX compile features
+[0.865s] -- Detecting CXX compile features - done
+[0.868s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.056s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.195s] [31mCMake Error at CMakeLists.txt:10 (rosidl_generate_interfaces):
+[1.195s]   Unknown CMake command "rosidl_generate_interfaces".
+[1.195s] 
+[1.196s] [0m
+[1.196s] -- Configuring incomplete, errors occurred!
+[1.196s] See also "/home/prasham/Prasham/GitHub/ros2_basics_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[1.200s] Invoked command in '/home/prasham/Prasham/GitHub/ros2_basics_ws/build/my_robot_interfaces' returned '1': /usr/bin/cmake /home/prasham/Prasham/GitHub/ros2_basics_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/prasham/Prasham/GitHub/ros2_basics_ws/install/my_robot_interfaces

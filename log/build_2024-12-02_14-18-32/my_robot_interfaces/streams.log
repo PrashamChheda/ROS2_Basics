@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/prasham/Prasham/GitHub/ros2_basics_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prasham/Prasham/GitHub/ros2_basics_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/prasham/Prasham/GitHub/ros2_basics_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/prasham/Prasham/GitHub/ros2_basics_ws/install/my_robot_interfaces
+[0.022s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.180s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.180s]   By not providing "Findrosidl_generate_interfaces.cmake" in
+[0.180s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.180s]   configuration file provided by "rosidl_generate_interfaces", but CMake did
+[0.181s]   not find one.
+[0.181s] 
+[0.181s]   Could not find a package configuration file provided by
+[0.181s]   "rosidl_generate_interfaces" with any of the following names:
+[0.181s] 
+[0.181s]     rosidl_generate_interfacesConfig.cmake
+[0.181s]     rosidl_generate_interfaces-config.cmake
+[0.181s] 
+[0.181s]   Add the installation prefix of "rosidl_generate_interfaces" to
+[0.181s]   CMAKE_PREFIX_PATH or set "rosidl_generate_interfaces_DIR" to a directory
+[0.181s]   containing one of the above files.  If "rosidl_generate_interfaces"
+[0.181s]   provides a separate development package or SDK, be sure it has been
+[0.181s]   installed.
+[0.182s] 
+[0.182s] [0m
+[0.182s] -- Configuring incomplete, errors occurred!
+[0.182s] See also "/home/prasham/Prasham/GitHub/ros2_basics_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.184s] Invoked command in '/home/prasham/Prasham/GitHub/ros2_basics_ws/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prasham/Prasham/GitHub/ros2_basics_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/prasham/Prasham/GitHub/ros2_basics_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/prasham/Prasham/GitHub/ros2_basics_ws/install/my_robot_interfaces

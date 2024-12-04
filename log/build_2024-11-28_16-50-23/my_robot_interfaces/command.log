@@ -1,0 +1,2 @@
+Invoking command in '/home/prasham/Prasham/GitHub/ros2_basics_ws/build/my_robot_interfaces': /usr/bin/cmake /home/prasham/Prasham/GitHub/ros2_basics_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/prasham/Prasham/GitHub/ros2_basics_ws/install/my_robot_interfaces
+Invoked command in '/home/prasham/Prasham/GitHub/ros2_basics_ws/build/my_robot_interfaces' returned '1': /usr/bin/cmake /home/prasham/Prasham/GitHub/ros2_basics_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/prasham/Prasham/GitHub/ros2_basics_ws/install/my_robot_interfaces

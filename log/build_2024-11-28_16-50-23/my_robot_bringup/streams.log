@@ -1,0 +1,19 @@
+[0.288s] Invoking command in '/home/prasham/Prasham/GitHub/ros2_basics_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/prasham/Prasham/GitHub/ros2_basics_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/prasham/Prasham/GitHub/ros2_basics_ws/install/my_robot_bringup
+[0.459s] -- The C compiler identification is GNU 11.4.0
+[0.605s] -- The CXX compiler identification is GNU 11.4.0
+[0.615s] -- Detecting C compiler ABI info
+[0.728s] -- Detecting C compiler ABI info - done
+[0.736s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.737s] -- Detecting C compile features
+[0.737s] -- Detecting C compile features - done
+[0.741s] -- Detecting CXX compiler ABI info
+[0.850s] -- Detecting CXX compiler ABI info - done
+[0.860s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.860s] -- Detecting CXX compile features
+[0.861s] -- Detecting CXX compile features - done
+[0.869s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.061s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.157s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.264s] -- Configuring done
+[1.267s] -- Generating done
+[1.268s] -- Build files have been written to: /home/prasham/Prasham/GitHub/ros2_basics_ws/build/my_robot_bringup
