@@ -72,7 +72,7 @@ class TurtleController(Node):
         client = self.create_client(CatchTurtle, "catch_turtle")
 
         while not client.wait_for_service(1.0):
-            self.get_logger().warn("Waiting for 'catch_turtle' server ")
+            self.get_logger().warn("Waiting for 'catch_turtle' server ...")
 
         request = CatchTurtle.Request()
         request.name = self.target_turtle_name
