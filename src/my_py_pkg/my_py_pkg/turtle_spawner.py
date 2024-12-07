@@ -25,7 +25,7 @@ class TurtleSpawner(Node):
         self.alive_turtle_publisher.publish(self.alive_turtle_list)
 
     def caught_turtle_publisher_callback(self):
-        if len(self.alive_turtles_list.names) > 0:
+        if len(self.alive_turtle_list.names) > 0:
             self.alive_turtles_list.x.pop(0)
             self.alive_turtles_list.y.pop(0)
             self.alive_turtles_list.theta.pop(0)
