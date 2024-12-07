@@ -1,4 +1,0 @@
-[console_scripts]
-turtle_controller = my_py_pkg.turtle_controller:main
-turtle_spawner = my_py_pkg.turtle_spawner:main
-
