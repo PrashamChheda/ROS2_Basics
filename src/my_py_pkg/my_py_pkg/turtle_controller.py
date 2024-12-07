@@ -19,7 +19,7 @@ class TurtleController(Node):
         self.target_turtle_name = None
         self.cmd_vel_publisher = self.create_publisher(Twist, "/turtle1/cmd_vel", 10)
         self.main_turtle_pose_subscriber = self.create_subscription(Pose, "/turtle1/pose", self.main_turtle_pose_callback, 10)
-        self.control_loop_timer = self.create_timer(0.01, self.control_loop)
+        self.control_loop_timer = self.create_timer(0.1, self.control_loop)
         self.target_turtle_pose_subscriber = self.create_subscription(AliveTurtlesList, "alive_turtles", self.alive_turtle_callback, 10)
 
     def alive_turtle_callback(self, msg):
@@ -28,6 +28,11 @@ class TurtleController(Node):
             self.target_turtle_y = msg.y[0]
             self.target_turtle_theta = msg.theta[0]
             self.target_turtle_name = msg.names[0]
+        else:
+            self.target_turtle_x = None
+            self.target_turtle_y = None
+            self.target_turtle_theta = None
+            self.target_turtle_name = None
 
     def main_turtle_pose_callback(self,msg):
         self.main_turtle_pose = msg
@@ -42,8 +47,8 @@ class TurtleController(Node):
 
         msg = Twist()
 
-        kp_dis = 2
-        kp_ang = 6
+        kp_dis = 4
+        kp_ang = 8
 
         if distance >= 0.2:
             msg.linear.x = kp_dis*distance
