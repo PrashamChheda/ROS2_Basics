@@ -2,7 +2,7 @@
 
 This project simulates a simple "Turtle Hunt" game using the ROS 2 framework. The main turtle is controlled using a PD controller to pursue and "catch" other turtles that are spawned randomly. The project includes custom ROS 2 messages, services, and a launch file to streamline execution.
 
-![Demo](https://github.com/PrashamChheda/ROS2_Basics_ws/blob/main/video.mp4)
+![Demo](https://github.com/PrashamChheda/ROS2_Basics_ws/blob/main/GIF.gif)
 
 ---
 
