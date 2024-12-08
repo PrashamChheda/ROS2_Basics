@@ -122,4 +122,4 @@ Ensure the following ROS 2 packages are installed:
 
 ## **Acknowledgements**
 
-This project was developed to demonstrate the capabilities of ROS 2 for robotic simulation, including inter-node communication, custom interfaces, and service implementations.
+This project was developed to understand the capabilities of ROS 2 for robotic simulation, including inter-node communication, custom interfaces, and service implementations.
